@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="utf-8" name="description" content="Веб-приложение кредитного отдела банка" name="keywords"
+        content="кредиты">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../sources/0.png" type="image/x-icon">
+    <title>Акции</title>
+</head>
+
+<body style="opacity:0;transition:.5s;">
+    <script type="text/javascript" src="../scripts/js/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../scripts/stocks.js"></script>
+    <header>
+        <img src="../sources/1.png" alt="logo" class="logo" id="calculator">
+        <div>
+            <input id="stocks" type="button" class="button_head" value="Акции">
+            <input id="contacts" type="button" class="button_head" value="Контакты">
+            <input id="login" type="button" class="button_head" value="Вход/регистрация">
+        </div>
+    </header>
+    <main>
+        <div class="txt_body" style="text-align:center">
+            Наши лучшие предложения для новых и не только клиентов!
+        </div>
+        <div class="stocks">
+            <img src="../sources/акция1.png" alt="image" class="image">
+            <img src="../sources/акция2.png" alt="image" class="image">
+        </div>
+        <div class="stocks">
+            <img src="../sources/акция4.png" alt="image" class="image_b">
+        </div>
+        <div class="stocks">
+            <img src="../sources/5.png" alt="image" class="image">
+            <img src="../sources/акция3.png" alt="image" class="image">
+            <img src="../sources/6.png" alt="image" class="image">
+        </div>
+        <div class="but_st">
+            <a href="javascript:scroll(0,0)"> К началу страницы </a>
+        </div>
+    </main>
+    <script>
+        $(document).ready(function () {
+            $("body").css("opacity", "1");
+        });
+    </script>
+</body>
+
+</html>

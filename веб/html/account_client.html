@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="utf-8" name="description" content="Веб-приложение кредитного отдела банка" name="keywords"
+        content="кредиты">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../sources/0.png" type="image/x-icon">
+    <title>Личный кабинет</title>
+</head>
+
+<body style="opacity:0;transition:.5s;">
+    <script type="text/javascript" src="../scripts/js/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../scripts/account.js"></script>
+    <header><img src="../sources/1.png" alt="logo" class="logo" id="calculator">
+        <div>
+            <input id="stocks" type="button" class="button_head" value="Акции">
+            <input id="contacts" type="button" class="button_head" value="Контакты">
+            <input id="outt" type="button" class="button_head" value="Выйти">
+        </div>
+    </header>
+    <main>
+        <div class="txt_body">
+            Вы вошли как клиент
+        </div>
+        <img src="../sources/2.png" alt="image" class="image">
+        <p class="txt_body1">бла бла бла бла бла бла бла бла бла бла</p>
+        <div class="but_st">
+            <a href="javascript:scroll(0,0)"> К началу страницы </a>
+        </div>
+    </main>
+    <script>
+        $(document).ready(function () {
+            $("body").css("opacity", "1");
+        });
+    </script>
+</body>
+
+</html>

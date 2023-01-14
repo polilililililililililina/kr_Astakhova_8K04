@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="utf-8" name="description" content="Веб-приложение кредитного отдела банка" name="keywords"
+        content="кредиты">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../sources/0.png" type="image/x-icon">
+    <title>Контакты</title>
+</head>
+
+<body style="opacity:0;transition:.5s;">
+    <script type="text/javascript" src="../scripts/js/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../scripts/contacts.js"></script>
+    <header>
+        <img src="../sources/1.png" alt="logo" class="logo" id="calculator">
+        <div>
+            <input id="stocks" type="button" class="button_head" value="Акции">
+            <input id="contacts" type="button" class="button_head" value="Контакты">
+            <input id="login" type="button" class="button_head" value="Вход/регистрация">
+        </div>
+    </header>
+    <main>
+        <div class="txt_body">
+            Наши филиалы:
+        </div>
+        <div class="addr">
+            <ul type="circle">
+                <li>Россия, Томск, ул. Вершинина, 39а, офис 419.</li>
+            </ul>
+        </div>
+        <div class="addr">
+            <ul type="circle">
+                <li>Россия, Рыбинск, ул. Фурманова, 9, офис 25.</li>
+            </ul>
+        </div>
+        <div class="txt_body">
+            Контактный номер телефона:
+        </div>
+        <div class="addr">
+            <ul type="circle">
+                <li>+7 (123) 456 78-90</li>
+            </ul>
+        </div>
+        <div class="txt_body">
+            Почтовый адрес:
+        </div>
+        <div class="addr">
+            <ul type="circle">
+                <li>pda3@tpu.ru</li>
+            </ul>
+        </div>
+        <div class="map" style="position:relative;overflow:hidden;"><a
+                href="https://yandex.ru/maps/67/tomsk/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:0px;">Томск</a><a
+                href="https://yandex.ru/maps/67/tomsk/house/ulitsa_vershinina_39a/bE0YfwFhTEwGQFtsfXh3cX9gYw==/?ll=84.961590%2C56.460338&utm_medium=mapframe&utm_source=maps&z=16.4"
+                style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Вершинина, 39А —
+                Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUnFGCnOD" width="840" height="600"
+                frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        <div class="but_st">
+            <a href="javascript:scroll(0,0)"> К началу страницы </a>
+        </div>
+    </main>
+    <script>
+        $(document).ready(function () {
+            $("body").css("opacity", "1");
+        });
+    </script>
+</body>
+</html>

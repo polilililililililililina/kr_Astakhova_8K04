@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="utf-8" name="description" content="Веб-приложение кредитного отдела банка" name="keywords"
+        content="кредиты">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../sources/0.png" type="image/x-icon">
+    <title>Калькулятор</title>
+</head>
+
+<body style="opacity:0;transition:.5s;">
+    <script type="text/javascript" src="../scripts/js/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../scripts/calculator.js"></script>
+    <header>
+        <img src="../sources/1.png" alt="logo" class="logo" id="calculator">
+        <div>
+            <input id="stocks" type="button" class="button_head" value="Акции">
+            <input id="contacts" type="button" class="button_head" value="Контакты">
+            <input id="login" type="button" class="button_head" value="Вход/регистрация">
+        </div>
+    </header>
+    <main>
+        <form class="block_calc" id="calc_form">
+            <input id="summa" type="number" class="form1" placeholder="Введите сумму кредита">
+            <input id="period" type="number" class="form1" placeholder="Введите период в месяцах">
+            <select id="percent" class="form1" aria-placeholder="Выберите процент по кредиту">
+                <option id="opt1"></option>
+                <option id="opt2"></option>
+                <option id="opt3"></option>
+                <option id="opt4"></option>
+            </select>
+            <input id="calc" type="button" class="calc" value="Рассчитать">
+            <input id="rst" type="button" class="calc" value="Очистить">
+        </form>
+        <div class="block_calc">
+            <p class="txt_body">Ежемесячный платёж составит (руб.): </p>
+            <output id="result" class="form" style="padding-left: 5px; padding-top: auto;">0</output>
+        </div>
+        <div class="stocks">
+            <img src="../sources/2.png" alt="image" class="image">
+            <img src="../sources/6.png" alt="image" class="image">
+        </div>
+        <div class="but_st">
+            <a href="javascript:scroll(0,0)"> К началу страницы </a>
+        </div>
+    </main>
+    <script type="text/javascript" src="../scripts/percents.js"></script>
+</body>
+
+</html>
